@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width,initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<title>FORM</title>
+		<link rel="stylesheet" href="E:\CODE\CSS.lib\bulma\bulma-0.9.0\css\bulma.css" id="bulma">
+		<link rel="stylesheet" href="fom.css">
+	</head>
+
+	<body>
+		<section class="section" id="section">
+			<form class="container" id="container">
+				<div class="columns is-multiline" id="columns">
+					<div class="column is-full" id="head">
+						<h1 class="title is-1-mobile">SUBMIT A REQUEST</h1>
+					</div>
+					<div class="column is-half" id="F_name">
+						<div class="field">
+							<label class="label">First Name</label>
+							<div class="control">
+								<input type="text" class="input is-rounded is-danger" placeholder="Your First Name" id="F_txt" required>
+							</div>
+						</div>
+					</div>
+					<div class="column is-half" id="L_name">
+						<div class="field">
+							<label class="label">Last Name</label>
+							<div class="control">
+								<input type="text" class="input is-rounded is-danger" placeholder="Your Last Name" id="L_txt" required>
+							</div>
+						</div>
+					</div>
+					<div class="column is-half" id="mail">
+						<div class="field">
+							<label class="label">E-mail</label>
+							<div class="control">
+								<input type="email" class="input is-rounded is-danger" placeholder="@mail" id="e_txt" required>
+							</div>
+						</div>
+					</div>
+					<div class="column is-half" id="select">
+						<div class="field">
+							<label class="label">Gender</label>
+							<div class="control">
+								<div class="select is-fullwidth is-rounded is-danger">
+									<select name="gender" id="sel">
+										<option value="male">Male</option>
+										<option value="female">Female</option>
+										<option value="other">Other</option>
+									</select>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="column is-full" id="message">
+						<div class="field">
+							<label class="label">Message</label>
+							<div class="control">
+								<textarea name="message" rows="5" class="textarea has-fixed-size is-danger" id="mes" placeholder="Optional"></textarea>
+							</div>
+						</div>
+					</div>
+					<div class="column is-full" id="submit">
+						<div class="field">
+							<div class="control">
+								<!-- <div class="button is-rounded is-danger is-outlined" id="but" type="submit">Submit Request</div> -->
+								<input type="submit" class="button is-rounded is-danger is-outlined" value="Sumbit Request" id="but">
+							</div>
+						</div>
+					</div>
+				</div>
+
+			</form>
+		</section>
+		<script type="text/javascript" src="fom.js"></script>
+	</body>
+
+</html>

@@ -1,0 +1,25 @@
+/*> BOSS*/
+*{}
+body{
+	height: 100vh;
+	background-color: lightgrey
+}
+/*> section*/
+/*> container*/
+.container{
+	border: 1px solid hotpink;
+	padding: 30px;
+	border-radius: 20px;
+	background-color: white
+}
+/*> head*/
+/*> first name*/
+#F_name input{
+}
+/*> last name*/
+#L_name input{
+}
+/*> mail*/
+/*> select*/
+/*> message*/
+/*> submit*/
